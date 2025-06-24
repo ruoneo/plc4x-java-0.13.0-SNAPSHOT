@@ -1,4 +1,4 @@
-# plc4x-java-0.13.0-SNAPSHOT-20250623
+# plc4j-0.13.0-SNAPSHOT-20250623
 
 ```xml
 <dependency>
