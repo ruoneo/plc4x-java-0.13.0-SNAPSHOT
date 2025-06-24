@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jun 23 15:38:19 GMT 2025
+plc4j-utils-test-generator-0.13.0-20250617.083928-1.jar>apache-snapshots=
+plc4j-utils-test-generator-0.13.0-SNAPSHOT-sources.jar>=
+plc4j-utils-test-generator-0.13.0-SNAPSHOT.jar>=
+plc4j-utils-test-generator-0.13.0-SNAPSHOT.pom>=

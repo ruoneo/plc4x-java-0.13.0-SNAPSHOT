@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.plc4x</groupId>
+  <artifactId>plc4j-driver-open-protocol</artifactId>
+  <versioning>
+    <versions>
+      <version>0.13.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250623143929</lastUpdated>
+  </versioning>
+</metadata>

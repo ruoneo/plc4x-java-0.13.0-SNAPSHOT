@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jun 23 15:09:41 GMT 2025
+plc4x-parent-0.13.0-SNAPSHOT-cyclonedx.json>=
+plc4x-parent-0.13.0-SNAPSHOT-cyclonedx.xml>=
+plc4x-parent-0.13.0-SNAPSHOT-source-release.zip.sha512>=
+plc4x-parent-0.13.0-SNAPSHOT-source-release.zip>=
+plc4x-parent-0.13.0-SNAPSHOT.pom>=

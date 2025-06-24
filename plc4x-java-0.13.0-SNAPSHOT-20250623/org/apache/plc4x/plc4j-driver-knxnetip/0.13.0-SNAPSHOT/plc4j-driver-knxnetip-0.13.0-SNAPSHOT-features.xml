@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="plc4j-driver-knxnetip">
+    <feature name="plc4j-driver-knxnetip" description="PLC4J: Driver: KNXNet/IP" version="0.13.0.SNAPSHOT">
+        <details>Wrapper project for all PLC4J driver implementations.</details>
+        <feature prerequisite="true" dependency="false">wrap</feature>
+        <bundle>mvn:org.apache.plc4x/plc4j-api/0.13.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.plc4x/plc4j-spi/0.13.0-SNAPSHOT</bundle>
+        <bundle>mvn:io.netty/netty-codec/4.1.119.Final</bundle>
+        <bundle>mvn:io.netty/netty-common/4.1.119.Final</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-databind/2.19.1</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-annotations/2.19.1</bundle>
+        <bundle>mvn:com.fasterxml.jackson.core/jackson-core/2.19.1</bundle>
+        <bundle>mvn:io.vavr/vavr/0.10.6</bundle>
+        <bundle>mvn:io.vavr/vavr-match/0.10.6</bundle>
+        <bundle>mvn:com.github.jinahya/bit-io/1.4.3</bundle>
+        <bundle>mvn:org.apache.plc4x/plc4j-transport-udp/0.13.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.plc4x/plc4j-transport-raw-socket/0.13.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.plc4x/plc4j-transport-pcap-shared/0.13.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.plc4x/plc4j-utils-raw-sockets/0.13.0-SNAPSHOT</bundle>
+        <bundle>mvn:commons-net/commons-net/3.11.1</bundle>
+        <bundle>mvn:org.apache.plc4x/plc4j-transport-pcap-replay/0.13.0-SNAPSHOT</bundle>
+        <bundle>mvn:org.apache.plc4x/plc4j-utils-pcap-replay/0.13.0-SNAPSHOT</bundle>
+        <bundle>mvn:io.netty/netty-transport/4.1.119.Final</bundle>
+        <bundle>mvn:io.netty/netty-resolver/4.1.119.Final</bundle>
+        <bundle>mvn:io.netty/netty-buffer/4.1.119.Final</bundle>
+        <bundle>mvn:org.apache.commons/commons-lang3/3.17.0</bundle>
+        <bundle>mvn:commons-codec/commons-codec/1.18.0</bundle>
+        <bundle>mvn:net.lingala.zip4j/zip4j/2.11.5</bundle>
+        <bundle>mvn:org.bouncycastle/bcprov-jdk18on/1.81</bundle>
+        <bundle>wrap:mvn:org.pcap4j/pcap4j-core/1.8.2</bundle>
+        <bundle>mvn:net.java.dev.jna/jna/5.17.0</bundle>
+        <bundle>mvn:org.apache.plc4x/plc4j-utils-pcap-shared/0.13.0-SNAPSHOT</bundle>
+    </feature>
+</features>
